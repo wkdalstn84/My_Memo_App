@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "756860828928",
+    "firebase_url": "https://mydb-72fba.firebaseio.com",
+    "project_id": "mydb-72fba",
+    "storage_bucket": "mydb-72fba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756860828928:android:9a82e4cb925e3373",
+        "android_client_info": {
+          "package_name": "com.biz.woo_page"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756860828928-gq7tlkqpql7a66te1gb696bhk9a8t74h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8t4q3hiuJHY2tITuxzc8LFl6NOxDNwjU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756860828928:android:6eb9d74a8d4dcf96",
+        "android_client_info": {
+          "package_name": "com.didgustn319.bsc_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756860828928-gq7tlkqpql7a66te1gb696bhk9a8t74h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8t4q3hiuJHY2tITuxzc8LFl6NOxDNwjU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756860828928:android:56372762a3e32601",
+        "android_client_info": {
+          "package_name": "com.didgustn319.friebase_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756860828928-gq7tlkqpql7a66te1gb696bhk9a8t74h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8t4q3hiuJHY2tITuxzc8LFl6NOxDNwjU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756860828928:android:c5c9ba4cae5fff2e",
+        "android_client_info": {
+          "package_name": "com.didgustn319.my_memo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756860828928-gq7tlkqpql7a66te1gb696bhk9a8t74h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8t4q3hiuJHY2tITuxzc8LFl6NOxDNwjU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
