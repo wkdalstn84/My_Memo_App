@@ -8,12 +8,15 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.didgustn319.my_memo_app.fragment.HomeFragment;
 import com.didgustn319.my_memo_app.fragment.MemoFragment;
 import com.didgustn319.my_memo_app.fragment.MyPageFragment;
+
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            Log.d("Navi",":" + item.getItemId());
             switch (item.getItemId()) {
                 case R.id.main_navigation_home:
                     viewPager.setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
@@ -37,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                             return 1;
                         }
                     });
+                    Log.d("Navi","Home:" + item.getItemId());
                     return true;
                 case R.id.main_navigation_memo:
                     viewPager.setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
@@ -50,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                             return 1;
                         }
                     });
+                    Log.d("Navi","Memo:" + item.getItemId());
                     return true;
                 case R.id.main_navigation_mypage:
                     viewPager.setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
@@ -63,11 +69,14 @@ public class MainActivity extends AppCompatActivity {
                             return 1;
                         }
                     });
+                    Log.d("Navi","MyPage:" + item.getItemId());
                     return true;
             }
             return false;
         }
     };
+
+    List<String> pageTitles;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -78,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
             @Override
             public Fragment getItem(int i) {
-                return new HomeFragment();
+                return new HomeFragment(pageTitles);
             }
 
             @Override
